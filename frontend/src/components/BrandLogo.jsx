@@ -1,0 +1,41 @@
+export const BrandLogo = ({ className = "" }) => (
+  <span className={`brand-logo ${className}`.trim()} aria-label="Urban Palm Tree">
+    <span className="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 48 48" role="img" focusable="false">
+        <path
+          d="M23.5 40.5c.9-7.9.7-14.5-.7-19.8"
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeWidth="4"
+        />
+        <path
+          d="M24 19c-4.9-4-9.9-4.8-15-2.5 2.7-5.6 7.6-8.3 15-8.2"
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3.4"
+        />
+        <path
+          d="M24 19c4.9-4 9.9-4.8 15-2.5-2.7-5.6-7.6-8.3-15-8.2"
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3.4"
+        />
+        <path
+          d="M24 19c-3.9.2-7.2 2.3-9.8 6.4 4.8.1 8-2 9.8-6.4Zm0 0c3.9.2 7.2 2.3 9.8 6.4-4.8.1-8-2-9.8-6.4Z"
+          fill="none"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="3.2"
+        />
+        <path d="M13 41h22" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="4" />
+      </svg>
+    </span>
+    <span>Urban Palm Tree</span>
+  </span>
+);
